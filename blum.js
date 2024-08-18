@@ -100,7 +100,7 @@ start_btn.addEventListener('click', () => {
                 if (leafCount < maxLeaves) {
                     createRandomLeaf();
                 }
-            }, 700); // Рандомная задержка до 2 секунд
+            }, 700); 
         }
 
         function createRandomBomb() {
