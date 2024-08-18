@@ -75,6 +75,7 @@ start_btn.addEventListener('click', () => {
         time.innerHTML = `00:${remainingTime < 10 ? '0' + remainingTime : remainingTime}`;
         coin.innerHTML = "0";
 
+        //............ ok
         const gameIntervalId = setInterval(() => {
             remainingTime--;
 
